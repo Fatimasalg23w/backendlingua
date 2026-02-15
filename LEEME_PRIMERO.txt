@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════════╗
+║                                                          ║
+║         LINGUACONNECT ACADEMY - INSTALACIÓN RÁPIDA      ║
+║                                                          ║
+╚══════════════════════════════════════════════════════════╝
+
+📦 REQUISITOS PREVIOS:
+   ✓ Node.js instalado (https://nodejs.org/)
+   ✓ Password de MongoDB
+
+⚡ INSTALACIÓN AUTOMÁTICA:
+
+   WINDOWS:
+   --------
+   1. Extrae el ZIP
+   2. Doble clic en: instalar.bat
+   3. Ingresa tu password de MongoDB cuando lo pida
+   4. ¡Listo!
+
+   MAC/LINUX:
+   ----------
+   1. Extrae el ZIP
+   2. Abre la terminal en la carpeta
+   3. Ejecuta: ./instalar.sh
+   4. Ingresa tu password de MongoDB cuando lo pida
+   5. ¡Listo!
+
+🚀 INICIAR EL SERVIDOR:
+
+   cd backend
+   npm run dev
+
+   Servidor en: http://localhost:5000
+
+📋 LO QUE HACE EL SCRIPT:
+
+   ✓ Crea las carpetas backend/ y frontend/
+   ✓ Organiza todos los archivos
+   ✓ Instala las dependencias (express, mongoose, etc.)
+   ✓ Configura el archivo .env con tu password
+   ✓ Crea los cupones en MongoDB automáticamente:
+     - BIENVENIDA20 (20% descuento)
+     - UNAM15 (15% descuento)
+     - POLI15 (15% descuento)
+     - PREMIUM10 (10% descuento solo Premium)
+     - REFERIDO (25% descuento)
+
+🔧 SI ALGO FALLA:
+
+   Instalación manual en README.md
+
+📞 SOPORTE:
+
+   info@linguaconnectacademy.com
+   WhatsApp: +52 55 1234 5678
+
+═══════════════════════════════════════════════════════════
